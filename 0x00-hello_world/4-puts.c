@@ -1,8 +1,8 @@
-#include<stdio>
+#include<stdio.h>
 /**
  * main - printing in c
  *
- * return: Always 0 (SUCCESS)
+ * Return: Always 0 (SUCCESS)
  */
 int main(void)
 {

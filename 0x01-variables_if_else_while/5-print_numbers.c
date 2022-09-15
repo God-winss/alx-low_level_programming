@@ -7,7 +7,7 @@
  * base 10 from 0
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	int a;
 

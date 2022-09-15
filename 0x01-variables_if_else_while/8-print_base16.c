@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main entry point
+ * main - entry point
  *
  * Description: Print base 16 numbers
  *
@@ -14,11 +14,10 @@ int main(void)
 	{
 		putchar(c);
 	}
-	for (c = 'a'; c <='f'; c++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar(c);
 	}
-
-	putchar('\n');
+        putchar('\n');
 	return (0);
 }

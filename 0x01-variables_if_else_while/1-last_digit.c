@@ -1,16 +1,15 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-
 /**
- * main - prints random number to variable
- *
- * Return always (success)
+ * main - entry point
+ * Description: checks on the last digit of the assigned var
+ * Return always 0 (success)
  */
 int main(void)
 {
 	int n, m;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	m = n % 10;

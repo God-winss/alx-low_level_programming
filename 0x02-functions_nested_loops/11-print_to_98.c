@@ -30,13 +30,16 @@ void print_to_98(int n)
 	{
 		while (n <= upper)
 		{
-			printf("%d%s", n, ", ");
+			if (n != upper)
+			{
+				printf("%d%s", n, ", ");
+			}
+			else
+			{
+				printf("%d", n);
+			}
+			n++;
 		}
-		else
-		{
-			printf("%d", n);
-		}
-		n++;
 	}
 	putchar(10);
 }

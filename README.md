@@ -2,4 +2,5 @@
 0x04-more_functions_nested_loops  
 0x06-pointers_arrays_strings               
 0x01-variables_if_else_while  0x03-debugging               
-0x05-pointers_arrays_strings      
+0x05-pointers_arrays_strings
+0x08. C - Recursion
